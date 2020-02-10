@@ -6,8 +6,9 @@ Welcome to our Gossip Application!
 
 ```bash
 bundle install
-rails db:seed #To create a random database
+rails db:create
 rails db:migrate
+rails db:seed #To create a random database
 rails s #To start the server
 ```
 
